@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.btn {
+  padding: 50px 50px;
+  background-size: cover;
+  background: url(images/img1.jpg);
+  border: none;
+  margin: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  padding: 70px 70px;
+}
